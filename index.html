@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <img src="imgs\logo.svg" id="logo" />
+        <div class="left-side">
+          <div class="home">
+            <i class="fa-solid fa-house" style="color: #ffffff"></i>
+          </div>
+          <div class="search">
+            <input type="text" id="seach_bar" placeholder="What do you want to play?"/>
+            <div id="search-logo"><img src="imgs\search.svg" alt="" /></div>
+          </div>
+        </div>
+        <div class="right-side">
+          <div class="entry">
+            <div class="sign-up">
+              <button>Sign Up</button>
+            </div>
+            <div class="login">
+              <button>Log in</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <div class="left">
+        <div class="library">
+          <div class="libr">
+            <img src="imgs\list.svg" id="lib" />
+            <p>Your Playlist</p>
+            <img src="imgs\close.svg" id="close">
+          </div>
+          <div class="song-list">
+            <ul>
+              
+            </ul>
+          </div>
+        </div>
+        <div class="footer">
+          <div>
+            <span>Legal</span>
+          </div>
+          <div>
+            <span>Safety & Privacy Center</span>
+          </div>
+          <div>
+            <span>Privacy Policy</span>
+          </div>
+          <div>
+            <span>Cookies</span>
+          </div>
+          <div>
+            <span>About Ads</span>
+          </div>
+          <div>
+            <span>Accessibility</span>
+          </div>
+          <div>
+              <span>Cookies</span>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="playlist">
+          <div class="heading">
+            <div class="hamburger">
+              <img src="imgs\hamburger.svg" alt="">
+            </div>
+            <h1>Spotify Albums</h1>
+          </div>
+          
+          <div class="card-container">
+            
+          </div>
+          <div class="play-bar">
+            <div class="seek-bar">
+              <div class="circle">
+
+              </div>
+            </div>
+            <div class="song-details">
+              <div class="song-info"></div>
+              <div class="play-btns">
+                <img src="imgs\prev.svg" id="prev">
+                <img src="imgs\play.svg" id="plays">
+                <img src="imgs\succ.svg" id="next">
+              </div>
+              <div class="extra">
+                <div class="song-time"></div>
+                <div class="vol">
+                  <img src="imgs\volume.svg" alt="">
+                  <div class="range">
+                    <input type="range" name="volume">
+                  </div>
+                </div>
+              </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
